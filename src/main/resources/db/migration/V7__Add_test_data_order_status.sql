@@ -1,3 +1,4 @@
+
 INSERT INTO pish.order_status ("name", description) VALUES('NEW', 'Новый');
 INSERT INTO pish.order_status ("name", description) VALUES('WAITING_PAY', 'Ожидание оплаты');
 INSERT INTO pish.order_status ("name", description) VALUES('PAID', 'Оплачен');
@@ -9,4 +10,4 @@ INSERT INTO pish.order_status ("name", description) VALUES('CANCELED', 'Отме
 INSERT INTO pish.order_status ("name", description) VALUES('REJECTED', 'Отклонен');
 INSERT INTO pish.order_status ("name", description) VALUES('RETURN', 'Возврат');
 
-commit;
+COMMIT;

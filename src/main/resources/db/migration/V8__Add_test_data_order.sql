@@ -1,3 +1,4 @@
+
 INSERT INTO pish."order" (product_id, customer_id, order_date, count, status) VALUES(2, 1, CURRENT_TIMESTAMP, 3, 1);
 INSERT INTO pish."order" (product_id, customer_id, order_date, count, status) VALUES(3, 2, CURRENT_TIMESTAMP - INTERVAL '1 hour', 8, 2);
 INSERT INTO pish."order" (product_id, customer_id, order_date, count, status) VALUES(4, 3, CURRENT_TIMESTAMP - INTERVAL '1 day', 99, 3);
@@ -20,4 +21,4 @@ INSERT INTO pish."order" (product_id, customer_id, order_date, count, status) VA
 INSERT INTO pish."order" (product_id, customer_id, order_date, count, status) VALUES(2, 6, CURRENT_TIMESTAMP - INTERVAL '9 day 3 hour', 18, 9);
 INSERT INTO pish."order" (product_id, customer_id, order_date, count, status) VALUES(2, 1, CURRENT_TIMESTAMP - INTERVAL '10 day 18 hour', 798, 10);
 
-commit;
+COMMIT;

@@ -1,3 +1,4 @@
+
 INSERT INTO pish.customer (first_name, last_name, phone, email) VALUES('Иван', 'Иванов', '79000000001', 'i.ivan@user.ru');
 INSERT INTO pish.customer (first_name, last_name, phone, email) VALUES('Семен', 'Семенов', '79000000002', 's.semen@user.ru');
 INSERT INTO pish.customer (first_name, last_name, phone, email) VALUES('Петр', 'Петров', '79000000003', 'p.petr@user.ru');
@@ -13,4 +14,4 @@ INSERT INTO pish.customer (first_name, last_name, phone, email) VALUES('Вале
 INSERT INTO pish.customer (first_name, last_name, phone, email) VALUES('Наталья', 'Галкина', '79000000013', null);
 INSERT INTO pish.customer (first_name, last_name, phone, email) VALUES('Тальяна', 'Чайкина', '79000000014', null);
 
-commit;
+COMMIT;

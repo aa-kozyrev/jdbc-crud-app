@@ -1,7 +1,7 @@
 -- pish.product
 
-CREATE TABLE IF NOT EXISTS pish.product (
-	id int4 GENERATED ALWAYS AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL, -- ID продукта
+CREATE TABLE IF NOT EXISTS pish.product(
+    id int4 GENERATED ALWAYS AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1 NO CYCLE) NOT NULL, -- ID продукта
 	"name" varchar NOT NULL, -- Наименование/Описание продукта
 	price numeric(100, 2) DEFAULT 0 NOT NULL, -- Cтоимость продукта
 	count int4 NOT NULL, -- Количество
@@ -91,5 +91,3 @@ COMMENT ON COLUMN pish."order".status IS 'Статус заказа';
 
 ALTER TABLE pish."order" OWNER TO pish;
 GRANT ALL ON TABLE pish."order" TO pish;
-
-commit;

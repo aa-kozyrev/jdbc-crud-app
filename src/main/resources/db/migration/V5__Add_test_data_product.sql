@@ -1,3 +1,4 @@
+
 INSERT INTO pish.product ("name", price, count, category) VALUES('Молоко', 10, 100, 'Кисло-молочная продукция');
 INSERT INTO pish.product ("name", price, count, category) VALUES('Масло', 150, 50, 'Кисло-молочная продукция');
 INSERT INTO pish.product ("name", price, count, category) VALUES('Сметана', 50, 200, 'Кисло-молочная продукция');
@@ -10,4 +11,4 @@ INSERT INTO pish.product ("name", price, count, category) VALUES('Батон', 1
 INSERT INTO pish.product ("name", price, count, category) VALUES('Хлеб, белый', 45.25, 90, 'Хлебо-булочные изделия');
 INSERT INTO pish.product ("name", price, count, category) VALUES('Каравай, ржаной', 20, 15, 'Хлебо-булочные изделия');
 
-commit;
+COMMIT;
